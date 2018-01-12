@@ -1,0 +1,8 @@
+C:\Users\Arthur\Desktop\Dojo_C#\array_list_dict\bin\Debug\netcoreapp1.1\array_list_dict.deps.json
+C:\Users\Arthur\Desktop\Dojo_C#\array_list_dict\bin\Debug\netcoreapp1.1\array_list_dict.runtimeconfig.json
+C:\Users\Arthur\Desktop\Dojo_C#\array_list_dict\bin\Debug\netcoreapp1.1\array_list_dict.runtimeconfig.dev.json
+C:\Users\Arthur\Desktop\Dojo_C#\array_list_dict\bin\Debug\netcoreapp1.1\array_list_dict.dll
+C:\Users\Arthur\Desktop\Dojo_C#\array_list_dict\bin\Debug\netcoreapp1.1\array_list_dict.pdb
+C:\Users\Arthur\Desktop\Dojo_C#\array_list_dict\obj\Debug\netcoreapp1.1\array_list_dict.AssemblyInfo.cs
+C:\Users\Arthur\Desktop\Dojo_C#\array_list_dict\obj\Debug\netcoreapp1.1\array_list_dict.dll
+C:\Users\Arthur\Desktop\Dojo_C#\array_list_dict\obj\Debug\netcoreapp1.1\array_list_dict.pdb
