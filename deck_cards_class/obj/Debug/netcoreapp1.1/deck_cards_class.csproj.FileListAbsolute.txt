@@ -1,0 +1,8 @@
+C:\Users\Arthur\Desktop\Dojo_C#\deck_cards_class\bin\Debug\netcoreapp1.1\deck_cards_class.deps.json
+C:\Users\Arthur\Desktop\Dojo_C#\deck_cards_class\bin\Debug\netcoreapp1.1\deck_cards_class.runtimeconfig.json
+C:\Users\Arthur\Desktop\Dojo_C#\deck_cards_class\bin\Debug\netcoreapp1.1\deck_cards_class.runtimeconfig.dev.json
+C:\Users\Arthur\Desktop\Dojo_C#\deck_cards_class\bin\Debug\netcoreapp1.1\deck_cards_class.dll
+C:\Users\Arthur\Desktop\Dojo_C#\deck_cards_class\bin\Debug\netcoreapp1.1\deck_cards_class.pdb
+C:\Users\Arthur\Desktop\Dojo_C#\deck_cards_class\obj\Debug\netcoreapp1.1\deck_cards_class.AssemblyInfo.cs
+C:\Users\Arthur\Desktop\Dojo_C#\deck_cards_class\obj\Debug\netcoreapp1.1\deck_cards_class.dll
+C:\Users\Arthur\Desktop\Dojo_C#\deck_cards_class\obj\Debug\netcoreapp1.1\deck_cards_class.pdb
