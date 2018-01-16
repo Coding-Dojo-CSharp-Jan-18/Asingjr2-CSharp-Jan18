@@ -1,6 +1,6 @@
 namespace c_class
 {
-    public class Vehicle
+    class Vehicle
     {
         public int passengers = 5;
         public double distance = 0.0;
@@ -10,9 +10,15 @@ namespace c_class
             passengers = val;
         }
         //  Adding public method
-        public void Move(double miles)
+        public Vehicle Move(double miles)
         {
             distance += miles;
+            return this;
+        }
+        public Vehicle Honk()
+        {
+            System.Console.WriteLine("Honking horn");
+            return this;
         }
         // ****************************
         // Can overload methods and variable but altering arguements or return values if any and eg. Move take int vs double, or returning something vs not, or Vehicle taking float vs
