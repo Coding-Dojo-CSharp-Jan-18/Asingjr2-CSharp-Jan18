@@ -1,0 +1,8 @@
+C:\Users\Arthur\Desktop\Dojo_C#\wizards_ninjas_samaurai\bin\Debug\netcoreapp1.1\wizards_ninjas_samaurai.deps.json
+C:\Users\Arthur\Desktop\Dojo_C#\wizards_ninjas_samaurai\bin\Debug\netcoreapp1.1\wizards_ninjas_samaurai.runtimeconfig.json
+C:\Users\Arthur\Desktop\Dojo_C#\wizards_ninjas_samaurai\bin\Debug\netcoreapp1.1\wizards_ninjas_samaurai.runtimeconfig.dev.json
+C:\Users\Arthur\Desktop\Dojo_C#\wizards_ninjas_samaurai\bin\Debug\netcoreapp1.1\wizards_ninjas_samaurai.dll
+C:\Users\Arthur\Desktop\Dojo_C#\wizards_ninjas_samaurai\bin\Debug\netcoreapp1.1\wizards_ninjas_samaurai.pdb
+C:\Users\Arthur\Desktop\Dojo_C#\wizards_ninjas_samaurai\obj\Debug\netcoreapp1.1\wizards_ninjas_samaurai.AssemblyInfo.cs
+C:\Users\Arthur\Desktop\Dojo_C#\wizards_ninjas_samaurai\obj\Debug\netcoreapp1.1\wizards_ninjas_samaurai.dll
+C:\Users\Arthur\Desktop\Dojo_C#\wizards_ninjas_samaurai\obj\Debug\netcoreapp1.1\wizards_ninjas_samaurai.pdb
