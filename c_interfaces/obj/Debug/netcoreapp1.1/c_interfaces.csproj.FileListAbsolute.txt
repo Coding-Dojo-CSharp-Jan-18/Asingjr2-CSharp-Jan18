@@ -1,0 +1,8 @@
+C:\Users\Arthur\Desktop\Dojo_C#\c_interfaces\bin\Debug\netcoreapp1.1\c_interfaces.deps.json
+C:\Users\Arthur\Desktop\Dojo_C#\c_interfaces\bin\Debug\netcoreapp1.1\c_interfaces.runtimeconfig.json
+C:\Users\Arthur\Desktop\Dojo_C#\c_interfaces\bin\Debug\netcoreapp1.1\c_interfaces.runtimeconfig.dev.json
+C:\Users\Arthur\Desktop\Dojo_C#\c_interfaces\bin\Debug\netcoreapp1.1\c_interfaces.dll
+C:\Users\Arthur\Desktop\Dojo_C#\c_interfaces\bin\Debug\netcoreapp1.1\c_interfaces.pdb
+C:\Users\Arthur\Desktop\Dojo_C#\c_interfaces\obj\Debug\netcoreapp1.1\c_interfaces.AssemblyInfo.cs
+C:\Users\Arthur\Desktop\Dojo_C#\c_interfaces\obj\Debug\netcoreapp1.1\c_interfaces.dll
+C:\Users\Arthur\Desktop\Dojo_C#\c_interfaces\obj\Debug\netcoreapp1.1\c_interfaces.pdb
