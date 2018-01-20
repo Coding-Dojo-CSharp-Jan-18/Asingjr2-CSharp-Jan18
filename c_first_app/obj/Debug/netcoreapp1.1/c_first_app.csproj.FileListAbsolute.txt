@@ -1,0 +1,8 @@
+C:\Users\Arthur\Desktop\Dojo_C#\c_first_app\bin\Debug\netcoreapp1.1\c_first_app.deps.json
+C:\Users\Arthur\Desktop\Dojo_C#\c_first_app\bin\Debug\netcoreapp1.1\c_first_app.runtimeconfig.json
+C:\Users\Arthur\Desktop\Dojo_C#\c_first_app\bin\Debug\netcoreapp1.1\c_first_app.runtimeconfig.dev.json
+C:\Users\Arthur\Desktop\Dojo_C#\c_first_app\bin\Debug\netcoreapp1.1\c_first_app.dll
+C:\Users\Arthur\Desktop\Dojo_C#\c_first_app\bin\Debug\netcoreapp1.1\c_first_app.pdb
+C:\Users\Arthur\Desktop\Dojo_C#\c_first_app\obj\Debug\netcoreapp1.1\c_first_app.AssemblyInfo.cs
+C:\Users\Arthur\Desktop\Dojo_C#\c_first_app\obj\Debug\netcoreapp1.1\c_first_app.dll
+C:\Users\Arthur\Desktop\Dojo_C#\c_first_app\obj\Debug\netcoreapp1.1\c_first_app.pdb

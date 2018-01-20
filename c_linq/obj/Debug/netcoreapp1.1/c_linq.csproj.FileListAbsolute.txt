@@ -1,0 +1,8 @@
+C:\Users\Arthur\Desktop\Dojo_C#\c_linq\bin\Debug\netcoreapp1.1\c_linq.deps.json
+C:\Users\Arthur\Desktop\Dojo_C#\c_linq\bin\Debug\netcoreapp1.1\c_linq.runtimeconfig.json
+C:\Users\Arthur\Desktop\Dojo_C#\c_linq\bin\Debug\netcoreapp1.1\c_linq.runtimeconfig.dev.json
+C:\Users\Arthur\Desktop\Dojo_C#\c_linq\bin\Debug\netcoreapp1.1\c_linq.dll
+C:\Users\Arthur\Desktop\Dojo_C#\c_linq\bin\Debug\netcoreapp1.1\c_linq.pdb
+C:\Users\Arthur\Desktop\Dojo_C#\c_linq\obj\Debug\netcoreapp1.1\c_linq.AssemblyInfo.cs
+C:\Users\Arthur\Desktop\Dojo_C#\c_linq\obj\Debug\netcoreapp1.1\c_linq.dll
+C:\Users\Arthur\Desktop\Dojo_C#\c_linq\obj\Debug\netcoreapp1.1\c_linq.pdb

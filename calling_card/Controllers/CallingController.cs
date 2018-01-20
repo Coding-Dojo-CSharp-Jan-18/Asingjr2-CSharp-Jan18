@@ -16,7 +16,20 @@ namespace calling_card.controllers
             };
             return Json(group_info);
         }
-    };
+
+        [HttpGet("greeting")]
+        public string Greeting()
+        {
+            return "Salutations";
+        }
+
+        [HttpGet("")]
+        public IActionResult Index()
+        {
+            return View("Index");
+        }
+       
+    }; 
     }
 
 

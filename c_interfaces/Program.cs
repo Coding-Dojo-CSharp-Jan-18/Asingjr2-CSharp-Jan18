@@ -20,9 +20,12 @@ namespace c_interfaces
             b1.drinks();
 
             // Interface that can use class interface function
-            food italian = new Dinner();
+            food italian = new Breakfast();
             string meal_type = italian.foods();
             System.Console.WriteLine($"Result of interfaced class method {meal_type}");
+            // Can not utilize inface because the type of interface is restricted to type instantiated on
+            // string drink_type = italian.drinks();
+            // Could correct with [  drink drink_type = meal_type]
 
         }
     }
