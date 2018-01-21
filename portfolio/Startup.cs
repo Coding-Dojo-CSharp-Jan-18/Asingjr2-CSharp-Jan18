@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
-namespace time_display
+namespace portfolio
 {
     public class Startup
     {
@@ -27,8 +27,5 @@ namespace time_display
             app.UseDeveloperExceptionPage();
             app.UseMvc();
         }
-
-        
+    }
 }
-}
-

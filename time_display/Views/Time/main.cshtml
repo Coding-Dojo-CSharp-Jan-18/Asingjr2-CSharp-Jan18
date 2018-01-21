@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
     </script>
+    <link rel="stylesheet" type="text/css" href="~/css/style.css">
 </head>
         
 <body>
@@ -14,14 +15,14 @@
     </div>
     <div class="row">
         <div class="col-sm-2"> </div>
-        <div class="col-sm=8">
-            <h1> The current time and date:</h1>
+        <div class="col-sm=8 main">
+            <h1 class="main"> The current time and date:</h1>
             @{
     DateTime currentDate = DateTime.Now;
     string formattedDate = String.Format("{0:MMM d, yyyy}", currentDate);
     string formattedTime = String.Format("{0:hh:mm tt}", currentDate);
 }
-            <p>@formattedDate</p>
+            <p >@formattedDate</p>
 
         </div>
         <div class="col-sm-2"> </div>

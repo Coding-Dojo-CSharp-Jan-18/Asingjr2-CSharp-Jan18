@@ -9554,16 +9554,16 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Arthur\\Desktop\\Dojo_C#\\calling_card\\calling_card.csproj",
-      "projectName": "calling_card",
-      "projectPath": "C:\\Users\\Arthur\\Desktop\\Dojo_C#\\calling_card\\calling_card.csproj",
-      "outputPath": "C:\\Users\\Arthur\\Desktop\\Dojo_C#\\calling_card\\obj\\",
+      "projectUniqueName": "C:\\Users\\Arthur\\Desktop\\Dojo_C#\\portfolio\\portfolio.csproj",
+      "projectName": "portfolio",
+      "projectPath": "C:\\Users\\Arthur\\Desktop\\Dojo_C#\\portfolio\\portfolio.csproj",
+      "outputPath": "C:\\Users\\Arthur\\Desktop\\Dojo_C#\\portfolio\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
       "files": {
-        "lib/netcoreapp1.1/calling_card.dll": "C:\\Users\\Arthur\\Desktop\\Dojo_C#\\calling_card\\bin\\placeholder\\netcoreapp1.1\\calling_card.dll"
+        "lib/netcoreapp1.1/portfolio.dll": "C:\\Users\\Arthur\\Desktop\\Dojo_C#\\portfolio\\bin\\placeholder\\netcoreapp1.1\\portfolio.dll"
       },
       "frameworks": {
         "netcoreapp1.1": {

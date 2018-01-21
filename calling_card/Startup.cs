@@ -24,11 +24,11 @@ namespace calling_card
         {
             loggerFactory.AddConsole();
             app.UseDeveloperExceptionPage();
-
-            if (env.IsDevelopment())
-            {
-            }
             app.UseMvc();
+        }
+        public void Configure(IApplicationBuilder app)
+        {
+            app.UseStaticFiles();
         }
     }
 }
