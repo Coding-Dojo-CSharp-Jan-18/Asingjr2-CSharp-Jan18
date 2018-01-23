@@ -1,0 +1,8 @@
+C:\Users\Arthur\Desktop\Dojo_C#\c_db_prac\bin\Debug\netcoreapp1.1\c_db_prac.deps.json
+C:\Users\Arthur\Desktop\Dojo_C#\c_db_prac\bin\Debug\netcoreapp1.1\c_db_prac.runtimeconfig.json
+C:\Users\Arthur\Desktop\Dojo_C#\c_db_prac\bin\Debug\netcoreapp1.1\c_db_prac.runtimeconfig.dev.json
+C:\Users\Arthur\Desktop\Dojo_C#\c_db_prac\bin\Debug\netcoreapp1.1\c_db_prac.dll
+C:\Users\Arthur\Desktop\Dojo_C#\c_db_prac\bin\Debug\netcoreapp1.1\c_db_prac.pdb
+C:\Users\Arthur\Desktop\Dojo_C#\c_db_prac\obj\Debug\netcoreapp1.1\c_db_prac.AssemblyInfo.cs
+C:\Users\Arthur\Desktop\Dojo_C#\c_db_prac\obj\Debug\netcoreapp1.1\c_db_prac.dll
+C:\Users\Arthur\Desktop\Dojo_C#\c_db_prac\obj\Debug\netcoreapp1.1\c_db_prac.pdb
