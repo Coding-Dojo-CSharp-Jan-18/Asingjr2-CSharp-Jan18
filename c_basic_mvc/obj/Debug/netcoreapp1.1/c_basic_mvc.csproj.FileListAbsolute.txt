@@ -1,0 +1,8 @@
+C:\Users\Arthur\Desktop\Dojo_C#\c_basic_mvc\bin\Debug\netcoreapp1.1\c_basic_mvc.deps.json
+C:\Users\Arthur\Desktop\Dojo_C#\c_basic_mvc\bin\Debug\netcoreapp1.1\c_basic_mvc.runtimeconfig.json
+C:\Users\Arthur\Desktop\Dojo_C#\c_basic_mvc\bin\Debug\netcoreapp1.1\c_basic_mvc.runtimeconfig.dev.json
+C:\Users\Arthur\Desktop\Dojo_C#\c_basic_mvc\bin\Debug\netcoreapp1.1\c_basic_mvc.dll
+C:\Users\Arthur\Desktop\Dojo_C#\c_basic_mvc\bin\Debug\netcoreapp1.1\c_basic_mvc.pdb
+C:\Users\Arthur\Desktop\Dojo_C#\c_basic_mvc\obj\Debug\netcoreapp1.1\c_basic_mvc.AssemblyInfo.cs
+C:\Users\Arthur\Desktop\Dojo_C#\c_basic_mvc\obj\Debug\netcoreapp1.1\c_basic_mvc.dll
+C:\Users\Arthur\Desktop\Dojo_C#\c_basic_mvc\obj\Debug\netcoreapp1.1\c_basic_mvc.pdb
