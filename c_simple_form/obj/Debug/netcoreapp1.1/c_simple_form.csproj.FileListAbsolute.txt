@@ -1,0 +1,8 @@
+C:\Users\Arthur\Desktop\Dojo_C#\c_simple_form\bin\Debug\netcoreapp1.1\c_simple_form.deps.json
+C:\Users\Arthur\Desktop\Dojo_C#\c_simple_form\bin\Debug\netcoreapp1.1\c_simple_form.runtimeconfig.json
+C:\Users\Arthur\Desktop\Dojo_C#\c_simple_form\bin\Debug\netcoreapp1.1\c_simple_form.runtimeconfig.dev.json
+C:\Users\Arthur\Desktop\Dojo_C#\c_simple_form\obj\Debug\netcoreapp1.1\c_simple_form.AssemblyInfo.cs
+C:\Users\Arthur\Desktop\Dojo_C#\c_simple_form\bin\Debug\netcoreapp1.1\c_simple_form.dll
+C:\Users\Arthur\Desktop\Dojo_C#\c_simple_form\bin\Debug\netcoreapp1.1\c_simple_form.pdb
+C:\Users\Arthur\Desktop\Dojo_C#\c_simple_form\obj\Debug\netcoreapp1.1\c_simple_form.dll
+C:\Users\Arthur\Desktop\Dojo_C#\c_simple_form\obj\Debug\netcoreapp1.1\c_simple_form.pdb
