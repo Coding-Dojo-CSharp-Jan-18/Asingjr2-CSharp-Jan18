@@ -8,26 +8,28 @@ namespace c_basic_mvc.Controllers
 {
     public class HomeController : Controller
     {
+        [HttpGet("")]
         public IActionResult Index()
         {
+            ViewBag.Fruits = new List<string>()
+            {
+                "Apple", "Pear", "Orange", "Grape"
+            };
+
+            var Person = new Dictionary<string, string>();
+            Person.Add("James", "Seattle");
+            Person.Add("Roy", "Spain");
+            ViewBag.Person = Person;
             return View();
         }
-
-        public IActionResult About()
+        [HttpPost("submit")]
+        public IActionResult Post(string hero)
         {
-            ViewData["Message"] = "Your application description page.";
-
-            return View();
+            ViewData["Hero"] = hero;
+            return RedirectToAction("Show");
         }
-
-        public IActionResult Contact()
-        {
-            ViewData["Message"] = "Your contact page.";
-
-            return View();
-        }
-
-        public IActionResult Error()
+        [HttpGet("show")]
+        public IActionResult Show()
         {
             return View();
         }

@@ -3,9 +3,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Indexs</title>
 </head>
 <body>
     <h1>INDEX PAGE SIR</h1>
+    @foreach(string fruit in ViewBag.Fruits)
+    {
+        <p>@fruit</p>
+    }
+    <p>@ViewBag.Person["James"]</p>
+
+    <form action="submit" method="POST">
+        <input type="text" name="hero">
+        <input type="submit" name="HERO!!!">
+    </form>
+
 </body>
 </html>

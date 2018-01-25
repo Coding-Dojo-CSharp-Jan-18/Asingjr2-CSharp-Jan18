@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Http;
 
 namespace c_basic_mvc
 {
@@ -28,6 +29,7 @@ namespace c_basic_mvc
         public void ConfigureServices(IServiceCollection services)
         {
             // Add framework services.
+            // services.AddSession();
             services.AddMvc();
         }
 
@@ -36,25 +38,12 @@ namespace c_basic_mvc
         {
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
-
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-                app.UseBrowserLink();
-            }
-            else
-            {
-                app.UseExceptionHandler("/Home/Error");
-            }
-
+            app.UseDeveloperExceptionPage();
             app.UseStaticFiles();
-
-            app.UseMvc(routes =>
-            {
-                routes.MapRoute(
-                    name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
-            });
+            // app.UseSession();
+            app.UseMvc();
+            app.UseBrowserLink();
+            app.UseExceptionHandler("/Home/Error");
         }
     }
 }
