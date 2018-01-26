@@ -9645,16 +9645,16 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Arthur\\Desktop\\Dojo_C#\\dojo_survey\\c_mvc_session\\c_mvc_session.csproj",
-      "projectName": "c_mvc_session",
-      "projectPath": "C:\\Users\\Arthur\\Desktop\\Dojo_C#\\dojo_survey\\c_mvc_session\\c_mvc_session.csproj",
-      "outputPath": "C:\\Users\\Arthur\\Desktop\\Dojo_C#\\dojo_survey\\c_mvc_session\\obj\\",
+      "projectUniqueName": "C:\\Users\\Arthur\\Desktop\\Dojo_C#\\session\\session.csproj",
+      "projectName": "session",
+      "projectPath": "C:\\Users\\Arthur\\Desktop\\Dojo_C#\\session\\session.csproj",
+      "outputPath": "C:\\Users\\Arthur\\Desktop\\Dojo_C#\\session\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
       "files": {
-        "lib/netcoreapp1.1/c_mvc_session.dll": "C:\\Users\\Arthur\\Desktop\\Dojo_C#\\dojo_survey\\c_mvc_session\\bin\\placeholder\\netcoreapp1.1\\c_mvc_session.dll"
+        "lib/netcoreapp1.1/session.dll": "C:\\Users\\Arthur\\Desktop\\Dojo_C#\\session\\bin\\placeholder\\netcoreapp1.1\\session.dll"
       },
       "frameworks": {
         "netcoreapp1.1": {

@@ -1,0 +1,8 @@
+C:\Users\Arthur\Desktop\Dojo_C#\session\bin\Debug\netcoreapp1.1\session.deps.json
+C:\Users\Arthur\Desktop\Dojo_C#\session\bin\Debug\netcoreapp1.1\session.runtimeconfig.json
+C:\Users\Arthur\Desktop\Dojo_C#\session\bin\Debug\netcoreapp1.1\session.runtimeconfig.dev.json
+C:\Users\Arthur\Desktop\Dojo_C#\session\bin\Debug\netcoreapp1.1\session.dll
+C:\Users\Arthur\Desktop\Dojo_C#\session\bin\Debug\netcoreapp1.1\session.pdb
+C:\Users\Arthur\Desktop\Dojo_C#\session\obj\Debug\netcoreapp1.1\session.AssemblyInfo.cs
+C:\Users\Arthur\Desktop\Dojo_C#\session\obj\Debug\netcoreapp1.1\session.dll
+C:\Users\Arthur\Desktop\Dojo_C#\session\obj\Debug\netcoreapp1.1\session.pdb
