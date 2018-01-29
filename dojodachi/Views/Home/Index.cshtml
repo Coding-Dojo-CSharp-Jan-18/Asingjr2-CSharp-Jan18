@@ -1,0 +1,43 @@
+﻿@{ ViewData["Title"] = "Home Page"; }
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10">
+            <h3>Fullness: </h3>
+            <h3>Happiness: </h3>
+            <h3>Meals: </h3>
+            <h3>Energy: </h3>
+        </div>
+        <div class="col-sm-1"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10 jumbotron outline">
+                <textarea>random box</textarea>
+                <p> You "action" with your Dojodachi. Result 1 Result 2</p>
+        </div>
+        <div class="col-sm-1"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10">
+            <form action="posty" method="post"> 
+                <input type="hidden" name="activity" value="feed">
+                <input type="submit" value="FEED">
+            </form>
+            <form action="posty" method="post">
+                <input type="hidden" name="activity" value="play">
+                <input type="submit" value="PLAY">
+            </form>
+            <form action="posty" method="post">
+                <input type="hidden" name="activity" value="work" >
+                <input type="submit" value="WORK">
+            </form>
+            <form action="posty" method="post">
+                <input type="hidden" name="activity" value="sleep">
+                <input type="submit" value="SLEEP">
+            </form>
+        </div>
+        <div class="col-sm-1"></div>
+    </div>
