@@ -1,7 +1,9 @@
 using System;
+using Newtonsoft.Json;
 
 namespace dojodachi
 {
+   
    class DD{
     public int happiness = 20;
     public int fullness = 20;
