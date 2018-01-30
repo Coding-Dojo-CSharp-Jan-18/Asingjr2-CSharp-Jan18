@@ -16,10 +16,37 @@ namespace c_misc {
             } catch {
                 System.Console.WriteLine ("Not working");
             }
-
+            switch (nums)
+            {
+                case 50:
+                    System.Console.WriteLine("is true");
+                    break;
+                default:
+                    System.Console.WriteLine("is false");
+                    break;
+            }
+            switch (nums)
+            {
+                case 45480:
+                case 50:
+                    System.Console.WriteLine("is true");
+                    break;
+                default:
+                    System.Console.WriteLine("is false");
+                    break;
+            }
+            switch (th)
+            {
+                case false:
+                    System.Console.WriteLine("dang");
+                    break;
+                default:
+                    System.Console.WriteLine("darn");
+                    break;
+            }
             System.Console.WriteLine("***************************************");
             System.Console.WriteLine("Experimenting with cases and ternary statements");
-                        
+
 
 
 
