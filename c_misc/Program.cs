@@ -8,8 +8,7 @@ namespace c_misc {
             string words = "some words";
             int nums = 45480;
             bool th = true;
-            System.Console.WriteLine (nums.GetType ());
-            System.Console.WriteLine (words.GetType ());
+            System.Console.WriteLine($"Nums int variable is {nums} and th bool variable is {th} and type of each is num: {nums.GetType()} and th: {th.GetType()}");
             try {
                 if (th is int) {
                     System.Console.WriteLine ("Th is a bool");
@@ -17,6 +16,15 @@ namespace c_misc {
             } catch {
                 System.Console.WriteLine ("Not working");
             }
+
+            System.Console.WriteLine("***************************************");
+            System.Console.WriteLine("Experimenting with cases and ternary statements");
+                        
+
+
+
+
+
         }
     }
 }
