@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 // Required in order to utilize session
 using Microsoft.AspNetCore.Http;
+// NewtonSoft required to use serialize function to change non-native types
 using Newtonsoft.Json;
 
 namespace session.Controllers
@@ -36,6 +37,14 @@ namespace session.Controllers
             HttpContext.Session.SetInt32("Age", 50);
             int? age_num = HttpContext.Session.GetInt32("Age");
             ViewBag.Age = age_num;
+
+
+            Hero Gumby = new Hero("gumby", "stretch", 15);
+            Gumby.Info();
+            ViewBag.Gumby = Gumby;
+            HttpContext.Session.SetObjectAsJson("hero1", Gumby);
+            ViewBag.Hero1 = HttpContext.Session.GetObjectFromJson<Hero>("hero1");
+            
             return View();
         }
         [HttpGet("logout")]
@@ -71,6 +80,7 @@ namespace session.Controllers
         public IActionResult Print_Temp()
         {
             System.Console.WriteLine(TempData["color"]);
+            ViewBag.Hero1 = HttpContext.Session.GetObjectFromJson<Hero>("hero1");
             return View("temp");
         }
     }

@@ -53,6 +53,13 @@ namespace c_class
             System.Console.WriteLine(ford.NumIceCreams);
             System.Console.WriteLine($"The color and icecreams are {ford.color} and {ford.NumIceCreams}");
             System.Console.WriteLine($"The color, speed, and icecreams are {ford.color}, {chevy.speed} and {ford.NumIceCreams}");
+            System.Console.WriteLine("*********************************");
+            System.Console.WriteLine("Creating food object and printing info");
+            Food pizza = new Food(12001, "junk", 6);
+            pizza.Info();
+            System.Console.WriteLine(pizza.taste);
+            pizza.type = "health";
+            System.Console.WriteLine(pizza.type);
         }
     }
 }
