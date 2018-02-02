@@ -15,13 +15,19 @@ namespace db_prac2.Controllers
             System.Console.WriteLine("came to index");
             return View();
         }
-        [HttpPost("/post")]
-        public IActionResult Post(string make, string model)
+       
+        [HttpPost("post")]
+        public IActionResult post(string make, string model)
         {
+            string query = $"INSERT INTO cars (make, model) VALUES ('{make}', '{model}')";
+            DbConnector.Execute(query);
+            string query2 = "SELECT * from CARS";
+            var allCars = DbConnector.Query(query2);
             System.Console.WriteLine("came to post");
             System.Console.WriteLine(make);
             System.Console.WriteLine(model);
-            return RedirectToAction("");
+            return RedirectToAction("Index");
         }
+      
     }
 }

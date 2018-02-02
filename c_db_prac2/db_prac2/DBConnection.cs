@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Data;
 using MySql.Data.MySqlClient;
  
-namespace DbConnection
+namespace db_prac2
 {
     public class DbConnector
     {
