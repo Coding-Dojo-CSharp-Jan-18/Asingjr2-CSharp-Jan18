@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "taskName": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/db_prac2/db_prac2.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
