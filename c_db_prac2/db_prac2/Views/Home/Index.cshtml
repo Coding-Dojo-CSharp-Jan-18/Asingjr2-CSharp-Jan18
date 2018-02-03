@@ -7,3 +7,9 @@
     <input type="text" name="model" placeholder="CAR MODEL">
     <input type="submit" name="add car">
 </form>
+
+@foreach (var car in ViewBag.AC)
+{
+
+    <p>@car["make"]</p>
+}

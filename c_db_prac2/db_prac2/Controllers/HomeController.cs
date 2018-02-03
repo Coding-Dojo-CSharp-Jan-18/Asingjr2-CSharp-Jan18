@@ -12,6 +12,9 @@ namespace db_prac2.Controllers
         [HttpGet("")]
         public IActionResult Index()
         {
+            string query2 = "SELECT * from CARS";
+            var allCars = DbConnector.Query(query2);
+            ViewBag.AC = allCars;
             System.Console.WriteLine("came to index");
             return View();
         }
@@ -21,8 +24,6 @@ namespace db_prac2.Controllers
         {
             string query = $"INSERT INTO cars (make, model) VALUES ('{make}', '{model}')";
             DbConnector.Execute(query);
-            string query2 = "SELECT * from CARS";
-            var allCars = DbConnector.Query(query2);
             System.Console.WriteLine("came to post");
             System.Console.WriteLine(make);
             System.Console.WriteLine(model);
