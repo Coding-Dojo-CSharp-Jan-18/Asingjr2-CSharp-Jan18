@@ -46,7 +46,7 @@ namespace quoting_dojo.Controllers
                 System.Console.WriteLine("this was form2");
                 break;
             }
-            string addQuote = $"INSERT INTO quotes (author, content) VALUE ('{author}', '{content}', now(), now())";
+            string addQuote = $"INSERT INTO quotes (author, content, created_at, updated_at) VALUE ('{author}', '{content}', now(), now())";
             DbConnector.Execute(addQuote);
             return RedirectToAction("Index");
         }
