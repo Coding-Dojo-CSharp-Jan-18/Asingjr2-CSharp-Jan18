@@ -46,6 +46,19 @@ namespace quoting_dojo.Controllers
                 System.Console.WriteLine("this was form2");
                 break;
             }
+            if(author ==null)
+            {
+                HttpContext.Session.SetString("Author", "Author cannot be blank");
+                System.Console.WriteLine("Author cannot be blank");
+                return RedirectToAction("Error");
+            }
+            if (content == null)
+            {
+                HttpContext.Session.SetString("Content", "Content cannot be blank");
+                System.Console.WriteLine("Content cannot be blank");
+                return RedirectToAction("Error");
+            }
+
             string addQuote = $"INSERT INTO quotes (author, content, created_at, updated_at) VALUE ('{author}', '{content}', now(), now())";
             DbConnector.Execute(addQuote);
             return RedirectToAction("Index");
@@ -54,6 +67,10 @@ namespace quoting_dojo.Controllers
         [HttpGet("/errors")]
         public IActionResult Error()
         {
+            List<string> mistakes = new List<string>();
+            mistakes.Add(HttpContext.Session.GetString("Content"));
+            mistakes.Add(HttpContext.Session.GetString("Author"));
+            ViewBag.Mistakes = mistakes;
             return View();
         }
     }
