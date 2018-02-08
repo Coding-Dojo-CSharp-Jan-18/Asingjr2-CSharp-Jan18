@@ -1,0 +1,8 @@
+C:\Users\Arthur\Desktop\Dojo_C#\rapi_full\bin\Debug\netcoreapp1.1\rapi_full.deps.json
+C:\Users\Arthur\Desktop\Dojo_C#\rapi_full\bin\Debug\netcoreapp1.1\rapi_full.runtimeconfig.json
+C:\Users\Arthur\Desktop\Dojo_C#\rapi_full\bin\Debug\netcoreapp1.1\rapi_full.runtimeconfig.dev.json
+C:\Users\Arthur\Desktop\Dojo_C#\rapi_full\bin\Debug\netcoreapp1.1\rapi_full.dll
+C:\Users\Arthur\Desktop\Dojo_C#\rapi_full\bin\Debug\netcoreapp1.1\rapi_full.pdb
+C:\Users\Arthur\Desktop\Dojo_C#\rapi_full\obj\Debug\netcoreapp1.1\rapi_full.AssemblyInfo.cs
+C:\Users\Arthur\Desktop\Dojo_C#\rapi_full\obj\Debug\netcoreapp1.1\rapi_full.dll
+C:\Users\Arthur\Desktop\Dojo_C#\rapi_full\obj\Debug\netcoreapp1.1\rapi_full.pdb

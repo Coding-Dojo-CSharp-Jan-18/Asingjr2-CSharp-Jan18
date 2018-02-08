@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+// Required for deployment
+using System.IO;
 using Microsoft.AspNetCore.Hosting;
 
 namespace session
@@ -16,6 +17,8 @@ namespace session
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
                 .UseStartup<Startup>()
+                // New file for integration
+                .UseIISIntegration()
                 .Build();
 
             host.Run();
