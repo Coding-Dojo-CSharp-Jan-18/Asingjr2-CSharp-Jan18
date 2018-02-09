@@ -1,0 +1,16 @@
+/*Write all of your CSS here*/
+th{
+    color:red;
+}
+td{
+    color:blue;
+}
+thead{
+    outline:2px green dotted;
+}
+tbody{
+    outline: 2px pink dotted;
+}
+tfoot{
+    color:purple;
+}
