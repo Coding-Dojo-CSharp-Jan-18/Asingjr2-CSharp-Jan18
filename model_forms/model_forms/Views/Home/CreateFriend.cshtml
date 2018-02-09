@@ -1,21 +1,39 @@
-@Model model_forms.Models.Friend
+@model model_forms.Models.Friend
 <h2>ADD FRIEND</h2>
 <form asp-action="Create" asp-controller="Home" >
     <div class="form-group">
-        <label asp-for="@Model.Name"></label>
-        <input type="text" asp-for="@Model.Name">
+        <label asp-for="Name"></label>
+        <input type="text" asp-for="Name">
     </div>
     <div class="form-group">
-        <label asp-for="@Model.Color"></label>
-        <input type="text" asp-for="@Model.Color">
+        <label asp-for="Color"></label>
+        <input type="text" asp-for="Color">
     </div>
     <div class="form-group">
-        <label asp-for="@Model.Email"></label>
-        <input type="text" asp-for="@Model.Email">
+        <label asp-for="Email"></label>
+        <input type="text" asp-for="Email">
     </div>
     <input type="submit" value="ADD FRIEND">
 </form>
 <!--
     FRAMEWORK SPECIFIC HTML METHODS 
     Create Method should exist inside home homecontroller
+-->
+
+<!--
+<form action="Create" method="post">
+    <div class="form-group">
+        <label for="Name">a</label>
+        <input type="text" name="Name">
+    </div>
+    <div class="form-group">
+        <label for="Color">b</label>
+        <input type="text" name="Color">
+    </div>
+    <div class="form-group">
+        <label for="Email">c</label>
+        <input type="text" name="Email">
+    </div>
+    <input type="submit" value="ADD FRIEND">
+</form>
 -->

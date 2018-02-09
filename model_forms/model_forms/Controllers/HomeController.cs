@@ -37,7 +37,7 @@ namespace model_forms.Controllers
         public IActionResult CreateFriend()
         {
             // Can send new empty friend object so that the form know specifically what model objects to reference
-            return View();
+                return View(new Friend());
         }
 
         [HttpPost("create")]
