@@ -1,0 +1,24 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+@model Movie
+
+<h2>ADD A MOVIE</h2>
+<form asp-action="create" asp-controller="Home" method="post">
+    <div class="form form-group">
+        <span asp-validation-for="Title"></span>
+        <label asp-for="Title"></label>
+        <input type="text" asp-for="Title">
+    </div>
+    <div class="form form-group">
+        <span asp-validation-for="Director"></span>
+        <label asp-for="Director"></label>
+        <input type="text" asp-for="Director">
+    </div>
+    <div class="form form-group">
+        <span asp-validation-for="ReleaseDate"></span>
+        <label asp-for="ReleaseDate"></label>
+        <input type="text" asp-for="ReleaseDate">
+    </div>
+    <input type="submit" value="ADD YOUR MOVIE">
+</form>
