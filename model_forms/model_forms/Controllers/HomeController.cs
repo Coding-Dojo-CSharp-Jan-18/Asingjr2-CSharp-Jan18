@@ -37,13 +37,33 @@ namespace model_forms.Controllers
         public IActionResult CreateFriend()
         {
             // Can send new empty friend object so that the form know specifically what model objects to reference
-                return View(new Friend());
+            Friend Barry2 = new Friend()
+            {
+                Name = "Barry",
+                Color = "Yellow",
+                Email = "zoo@d.com"
+            };
+                // return View(new Friend());
+                return View(Barry2);
+            /* ************************************************
+            Can pass model as argument to autopopulate fields as long as asp-for inputs are present  ************************************************* */
         }
 
         [HttpPost("create")]
         public IActionResult Create(Friend friend)
         {
-            return Json(friend);
+            // Manual error check for first letter of field entry
+            if(friend.Color[0] == 'M')
+            // Can create custom validations with AddModelError(_Model, _Message)
+                ModelState.AddModelError("Color", "Manual entered message");
+            // Giving direction based on model state valdity
+            if(ModelState.IsValid)
+            {
+                System.Console.WriteLine("model is valid");
+                return Json(friend);
+            }
+            // If model is not valid we return view and model errors with the validation spans in form 
+            return View("CreateFriend", friend);
         }
     }
 }
