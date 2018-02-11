@@ -47,6 +47,7 @@ namespace c_models.Controllers
             ViewBag.errors = ModelState.Values;
             return View("Index", user);
         }
+    
        
     }    
 }

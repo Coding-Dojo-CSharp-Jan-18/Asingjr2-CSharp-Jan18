@@ -9,3 +9,6 @@ C# functions a but differently from DJANGO in that you can pass an entire model 
 DB connection file basic version is used.  
 To execute the query and execute methods from DBConnector you must call the directly.
 **PAY ATTETION TO ROUTE NAMES AND SLASHES**
+
+# **IMPORTANT**
+##  _ADD REQUIRED SQL PACKAGES_

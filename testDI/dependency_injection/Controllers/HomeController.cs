@@ -8,6 +8,7 @@ namespace dependency_injection.Controllers
 {
     public class HomeController : Controller
     {
+        /* ********************************PASSING CLASS OBJECT THROUGH CONSTRCUTOR */
         private Test _test;
         public HomeController(Test test)
         {
@@ -18,7 +19,7 @@ namespace dependency_injection.Controllers
         [Route("")]
         public IActionResult Index()
         {
-            return View();
+            return View(_test);
         }
     }
 }

@@ -12,6 +12,7 @@ namespace dependency_injection
         public void ConfigureServices(IServiceCollection services)
         {
             // Add framework services.
+            /********* ADDING SCOPED FOR USE THROUGH APP */
             services.AddScoped<Test>();
             services.AddMvc();
             services.AddSession();
