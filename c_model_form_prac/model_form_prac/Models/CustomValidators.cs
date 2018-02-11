@@ -1,6 +1,8 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 
+// Killer comments! -dev
+
 // Creating a new namespace for the validators we have within model_form_prac aclled Validators
 namespace model_form_prac.Validators
 {
