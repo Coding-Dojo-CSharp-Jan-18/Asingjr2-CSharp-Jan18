@@ -1,0 +1,8 @@
+C:\Users\Arthur\Desktop\Dojo_C#\form_submit\bin\Debug\netcoreapp1.1\form_submit.deps.json
+C:\Users\Arthur\Desktop\Dojo_C#\form_submit\bin\Debug\netcoreapp1.1\form_submit.runtimeconfig.json
+C:\Users\Arthur\Desktop\Dojo_C#\form_submit\bin\Debug\netcoreapp1.1\form_submit.runtimeconfig.dev.json
+C:\Users\Arthur\Desktop\Dojo_C#\form_submit\obj\Debug\netcoreapp1.1\form_submit.AssemblyInfo.cs
+C:\Users\Arthur\Desktop\Dojo_C#\form_submit\bin\Debug\netcoreapp1.1\form_submit.dll
+C:\Users\Arthur\Desktop\Dojo_C#\form_submit\bin\Debug\netcoreapp1.1\form_submit.pdb
+C:\Users\Arthur\Desktop\Dojo_C#\form_submit\obj\Debug\netcoreapp1.1\form_submit.dll
+C:\Users\Arthur\Desktop\Dojo_C#\form_submit\obj\Debug\netcoreapp1.1\form_submit.pdb

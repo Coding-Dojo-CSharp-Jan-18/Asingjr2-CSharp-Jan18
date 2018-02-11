@@ -1,0 +1,8 @@
+C:\Users\Arthur\Desktop\Dojo_C#\c_db_dependency_inject\bin\Debug\netcoreapp1.1\c_db_dependency_inject.deps.json
+C:\Users\Arthur\Desktop\Dojo_C#\c_db_dependency_inject\bin\Debug\netcoreapp1.1\c_db_dependency_inject.runtimeconfig.json
+C:\Users\Arthur\Desktop\Dojo_C#\c_db_dependency_inject\bin\Debug\netcoreapp1.1\c_db_dependency_inject.runtimeconfig.dev.json
+C:\Users\Arthur\Desktop\Dojo_C#\c_db_dependency_inject\bin\Debug\netcoreapp1.1\c_db_dependency_inject.dll
+C:\Users\Arthur\Desktop\Dojo_C#\c_db_dependency_inject\bin\Debug\netcoreapp1.1\c_db_dependency_inject.pdb
+C:\Users\Arthur\Desktop\Dojo_C#\c_db_dependency_inject\obj\Debug\netcoreapp1.1\c_db_dependency_inject.AssemblyInfo.cs
+C:\Users\Arthur\Desktop\Dojo_C#\c_db_dependency_inject\obj\Debug\netcoreapp1.1\c_db_dependency_inject.dll
+C:\Users\Arthur\Desktop\Dojo_C#\c_db_dependency_inject\obj\Debug\netcoreapp1.1\c_db_dependency_inject.pdb
