@@ -25,6 +25,7 @@ namespace appsettings.Controllers
         public IActionResult Index()
         {
             List<Dictionary<string, object>> AllUsers = _dbConnector.Query("SELECT * FROM users");
+            ViewBag.User = AllUsers;
             return View();
             // Other code
         }

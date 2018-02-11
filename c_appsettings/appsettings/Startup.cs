@@ -2,6 +2,7 @@ using System;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+// Add to allow for connection
 using Microsoft.Extensions.Configuration;
 using Microsoft.AspNetCore.Hosting;
 
@@ -15,8 +16,8 @@ namespace appsettings
             // Add framework services.
             services.AddMvc();
             services.AddSession();
-            services.AddScoped<DbConnect>();
             services.Configure<MySqlOptions>(Configuration.GetSection("DBInfo"));
+            services.AddScoped<DbConnector>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -30,6 +31,7 @@ namespace appsettings
             
         }
 
+        /* ***************************************************************************************** */
         public IConfiguration Configuration{ get; private set;}
 
 

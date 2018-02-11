@@ -4,8 +4,8 @@ using Microsoft.Extensions.Options;
 using MySql.Data.MySqlClient;
  
 namespace appsettings
-
 {
+
     public class DbConnector
     {
         private readonly IOptions<MySqlOptions> MySqlConfig;
