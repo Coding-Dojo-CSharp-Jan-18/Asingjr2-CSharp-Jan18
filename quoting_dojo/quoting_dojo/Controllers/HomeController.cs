@@ -30,7 +30,7 @@ namespace quoting_dojo.Controllers
         [HttpGet("/quotes")]
         public IActionResult Quotes()
         {
-            return RedirectToAction("Index");
+            return View();
         }
 
         [HttpPost("/post")]
