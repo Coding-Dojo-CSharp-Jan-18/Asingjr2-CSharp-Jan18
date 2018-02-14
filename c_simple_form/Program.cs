@@ -14,6 +14,7 @@ namespace c_simple_form
             var host = new WebHostBuilder()
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
+                //  IISIntegration was added to support deployment
                 .UseIISIntegration()
                 .UseStartup<Startup>()
                 .Build();
