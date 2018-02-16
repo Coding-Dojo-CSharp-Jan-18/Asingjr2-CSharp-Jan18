@@ -1,0 +1,8 @@
+C:\Users\Arthur\Desktop\Dojo_C#\ajax_linq_session_recap\bin\Debug\netcoreapp1.1\ajax_linq_session_recap.deps.json
+C:\Users\Arthur\Desktop\Dojo_C#\ajax_linq_session_recap\bin\Debug\netcoreapp1.1\ajax_linq_session_recap.runtimeconfig.json
+C:\Users\Arthur\Desktop\Dojo_C#\ajax_linq_session_recap\bin\Debug\netcoreapp1.1\ajax_linq_session_recap.runtimeconfig.dev.json
+C:\Users\Arthur\Desktop\Dojo_C#\ajax_linq_session_recap\bin\Debug\netcoreapp1.1\ajax_linq_session_recap.dll
+C:\Users\Arthur\Desktop\Dojo_C#\ajax_linq_session_recap\bin\Debug\netcoreapp1.1\ajax_linq_session_recap.pdb
+C:\Users\Arthur\Desktop\Dojo_C#\ajax_linq_session_recap\obj\Debug\netcoreapp1.1\ajax_linq_session_recap.AssemblyInfo.cs
+C:\Users\Arthur\Desktop\Dojo_C#\ajax_linq_session_recap\obj\Debug\netcoreapp1.1\ajax_linq_session_recap.dll
+C:\Users\Arthur\Desktop\Dojo_C#\ajax_linq_session_recap\obj\Debug\netcoreapp1.1\ajax_linq_session_recap.pdb

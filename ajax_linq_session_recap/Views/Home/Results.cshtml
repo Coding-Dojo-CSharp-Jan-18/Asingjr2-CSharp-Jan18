@@ -1,0 +1,32 @@
+<h1>RESULTS OF LINQ SEARCHES</h1>
+<a href="/"> INDEX</a>
+
+<ol id="teams_list">Current Teams
+    @foreach(var team in ViewBag.All) {
+    <li>GO!!! @team["name"]; </li>
+
+    }
+</ol>
+<button id="hide"> HIDE</button>
+<button id="show"> SHOW</button>
+
+<ol> LINQ PRACTICE
+    <li>
+        ex1 = Teams with 0 Superbowls 
+    </li>
+    <li>
+        ex2 =Teams with 6 Superbowls 
+    </li>
+    <li>
+        ex3 =Teeams Starting with W 
+    </li>
+    <li>
+        ex4 =Team Containing H in city 
+    </li>
+    <li>
+        ex5 =first 2 teams created 
+    </li>
+    <li>
+        ex6 =last 2 teams created
+    </li>
+</ol>

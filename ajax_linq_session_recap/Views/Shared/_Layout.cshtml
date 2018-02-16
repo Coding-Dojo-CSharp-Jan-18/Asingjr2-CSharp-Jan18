@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ajax_linq_session_recap</title>
+
+    <environment names="Development">
+        <!-- Need to add ajax/jquery file -->
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <!-- Need to add ajax/jquery file -->
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+        <link rel="stylesheet" href="~/css/site.css" />
+        <script src="~/js/site.js" asp-append-version="true"></script>
+    </environment>
+    <environment names="Staging,Production">
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+        <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+        <link type="text/javascript" href="~/js/site.js">
+    </environment>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</head>
+<body>
+   
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+ 
+   
+</body>
+</html>
