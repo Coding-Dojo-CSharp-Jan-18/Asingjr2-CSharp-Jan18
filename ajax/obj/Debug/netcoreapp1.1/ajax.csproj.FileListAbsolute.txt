@@ -1,0 +1,8 @@
+C:\Users\Arthur\Desktop\Dojo_C#\ajax\bin\Debug\netcoreapp1.1\ajax.deps.json
+C:\Users\Arthur\Desktop\Dojo_C#\ajax\bin\Debug\netcoreapp1.1\ajax.runtimeconfig.json
+C:\Users\Arthur\Desktop\Dojo_C#\ajax\bin\Debug\netcoreapp1.1\ajax.runtimeconfig.dev.json
+C:\Users\Arthur\Desktop\Dojo_C#\ajax\bin\Debug\netcoreapp1.1\ajax.dll
+C:\Users\Arthur\Desktop\Dojo_C#\ajax\bin\Debug\netcoreapp1.1\ajax.pdb
+C:\Users\Arthur\Desktop\Dojo_C#\ajax\obj\Debug\netcoreapp1.1\ajax.AssemblyInfo.cs
+C:\Users\Arthur\Desktop\Dojo_C#\ajax\obj\Debug\netcoreapp1.1\ajax.dll
+C:\Users\Arthur\Desktop\Dojo_C#\ajax\obj\Debug\netcoreapp1.1\ajax.pdb
