@@ -1,0 +1,8 @@
+C:\Users\Arthur\Desktop\Dojo_C#\c_user_auth\user_auth\bin\Debug\netcoreapp1.1\user_auth.deps.json
+C:\Users\Arthur\Desktop\Dojo_C#\c_user_auth\user_auth\bin\Debug\netcoreapp1.1\user_auth.runtimeconfig.json
+C:\Users\Arthur\Desktop\Dojo_C#\c_user_auth\user_auth\bin\Debug\netcoreapp1.1\user_auth.runtimeconfig.dev.json
+C:\Users\Arthur\Desktop\Dojo_C#\c_user_auth\user_auth\bin\Debug\netcoreapp1.1\user_auth.dll
+C:\Users\Arthur\Desktop\Dojo_C#\c_user_auth\user_auth\bin\Debug\netcoreapp1.1\user_auth.pdb
+C:\Users\Arthur\Desktop\Dojo_C#\c_user_auth\user_auth\obj\Debug\netcoreapp1.1\user_auth.AssemblyInfo.cs
+C:\Users\Arthur\Desktop\Dojo_C#\c_user_auth\user_auth\obj\Debug\netcoreapp1.1\user_auth.dll
+C:\Users\Arthur\Desktop\Dojo_C#\c_user_auth\user_auth\obj\Debug\netcoreapp1.1\user_auth.pdb
