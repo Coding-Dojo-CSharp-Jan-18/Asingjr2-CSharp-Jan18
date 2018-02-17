@@ -14,6 +14,7 @@ namespace user_auth.Controllers
         [HttpGet("")]
         public IActionResult Index()
         {
+            System.Console.WriteLine("came to index");
             return View();
         }
 
@@ -33,7 +34,7 @@ namespace user_auth.Controllers
                 string tempPW = "secret";
                 // Creating password hasher object that takes object
                 PasswordHasher<User> hasher = new PasswordHasher<User>();
-                // Creating string with form model being used and specific field where unhashed pw was entered;
+                // Creating hashed PW with model obect and string text
                 string hashedPW = hasher.HashPassword(user, user.password);
                 System.Console.WriteLine(tempPW);
                 System.Console.WriteLine(hasher);
@@ -49,6 +50,7 @@ namespace user_auth.Controllers
         [HttpGet("login")]
         public IActionResult Login()
         {
+            System.Console.WriteLine("came to login");
             return View();
         }
 
@@ -57,11 +59,18 @@ namespace user_auth.Controllers
         {
             // Check to see if user is in database...if query for database email is 0 no matches exist
             System.Console.WriteLine("came to loginPost");
+            // string query to check DB agains email
             string login_query = $"SELECT * FROM users WHERE email = '{user.email}'";
+            // Var to store search
             var userToLog = DbConnector.Query(login_query).FirstOrDefault();
-            System.Console.WriteLine(login_query);
+            // test to see if there are any results...email already unique
+            System.Console.WriteLine(DbConnector.Query(login_query).Count);
             if (DbConnector.Query(login_query).Count == 0)
+            {
                 ModelState.AddModelError("email", "Invalid Email/Password");
+                System.Console.WriteLine("password or email incorrect");
+            }
+            // test against password
             else
             {
                 {
@@ -73,8 +82,11 @@ namespace user_auth.Controllers
                     if(hasher.VerifyHashedPassword(user, hashedFromDB, user.password) == 0)
                     {
                         // Result if password is incorrect
-                        ModelState.AddModelError("email", "Invalid Email/Password");
+                        // Best to create tempdata comment that says generic user or password wrong for safety!!!
+                        ModelState.AddModelError("password", "Invalid Email/Password");
+                        return View("login", user);
                     }
+                    System.Console.WriteLine(hasher.VerifyHashedPassword(user, hashedFromDB, user.password));
                 }
             }
             if(ModelState.IsValid)
@@ -85,7 +97,7 @@ namespace user_auth.Controllers
                 return RedirectToAction("Success");
             }
 
-            return RedirectToAction("Index");
+            return RedirectToAction("login", user);
         }
 
         [HttpGet("success")]
