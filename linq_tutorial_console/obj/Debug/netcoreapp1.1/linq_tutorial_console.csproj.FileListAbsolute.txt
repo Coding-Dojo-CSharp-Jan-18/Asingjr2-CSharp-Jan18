@@ -1,0 +1,8 @@
+C:\Users\Arthur\Desktop\Dojo_C#\linq_tutorial_console\bin\Debug\netcoreapp1.1\linq_tutorial_console.deps.json
+C:\Users\Arthur\Desktop\Dojo_C#\linq_tutorial_console\bin\Debug\netcoreapp1.1\linq_tutorial_console.runtimeconfig.json
+C:\Users\Arthur\Desktop\Dojo_C#\linq_tutorial_console\bin\Debug\netcoreapp1.1\linq_tutorial_console.runtimeconfig.dev.json
+C:\Users\Arthur\Desktop\Dojo_C#\linq_tutorial_console\bin\Debug\netcoreapp1.1\linq_tutorial_console.dll
+C:\Users\Arthur\Desktop\Dojo_C#\linq_tutorial_console\bin\Debug\netcoreapp1.1\linq_tutorial_console.pdb
+C:\Users\Arthur\Desktop\Dojo_C#\linq_tutorial_console\obj\Debug\netcoreapp1.1\linq_tutorial_console.AssemblyInfo.cs
+C:\Users\Arthur\Desktop\Dojo_C#\linq_tutorial_console\obj\Debug\netcoreapp1.1\linq_tutorial_console.dll
+C:\Users\Arthur\Desktop\Dojo_C#\linq_tutorial_console\obj\Debug\netcoreapp1.1\linq_tutorial_console.pdb
