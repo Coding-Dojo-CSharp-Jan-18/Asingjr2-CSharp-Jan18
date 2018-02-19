@@ -1,0 +1,27 @@
+@{ ViewData["Title"] = "Home Page"; }
+
+@model cwall1.Models.User
+
+<form asp-action="registerPost" asp-controller="Home">
+    <div class="form-group">
+        <span asp-validation-for="first"></span>
+        <label asp-for="first"></label>
+        <input type="text" asp-for="first">
+    </div>
+    <div class="form-group">
+        <span asp-validation-for="last"></span>
+        <label asp-for="last"></label>
+        <input type="text" asp-for="last">
+    </div>
+    <div class="form-group">
+        <span asp-validation-for="email"></span>
+        <label asp-for="email"></label>
+        <input type="text" asp-for="email">
+    </div>
+    <div class="form-group">
+        <span asp-validation-for="password"></span>
+        <label asp-for="password"></label>
+        <input type="text" asp-for="password">
+    </div>
+    <input type="submit" value="ADD USER">
+</form>

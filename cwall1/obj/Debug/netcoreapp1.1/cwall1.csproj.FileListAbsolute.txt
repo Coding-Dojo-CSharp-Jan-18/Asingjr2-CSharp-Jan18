@@ -1,0 +1,8 @@
+C:\Users\Arthur\Desktop\Dojo_C#\cwall1\bin\Debug\netcoreapp1.1\cwall1.deps.json
+C:\Users\Arthur\Desktop\Dojo_C#\cwall1\bin\Debug\netcoreapp1.1\cwall1.runtimeconfig.json
+C:\Users\Arthur\Desktop\Dojo_C#\cwall1\bin\Debug\netcoreapp1.1\cwall1.runtimeconfig.dev.json
+C:\Users\Arthur\Desktop\Dojo_C#\cwall1\bin\Debug\netcoreapp1.1\cwall1.dll
+C:\Users\Arthur\Desktop\Dojo_C#\cwall1\bin\Debug\netcoreapp1.1\cwall1.pdb
+C:\Users\Arthur\Desktop\Dojo_C#\cwall1\obj\Debug\netcoreapp1.1\cwall1.AssemblyInfo.cs
+C:\Users\Arthur\Desktop\Dojo_C#\cwall1\obj\Debug\netcoreapp1.1\cwall1.dll
+C:\Users\Arthur\Desktop\Dojo_C#\cwall1\obj\Debug\netcoreapp1.1\cwall1.pdb

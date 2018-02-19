@@ -1,0 +1,56 @@
+<div>
+    <h1>HEADER</h1>
+    <a href="logout">LOGOUT</a>
+</div>
+<hr>
+<hr>
+<div class="container">
+    <p> POST A MESSAGE  </p>
+    <div class="row">
+        <div class="col-sm-10">
+
+            <form action="messagePost" method="POST">
+                <input type="text" name="message" class="text_box" placeholder="your message...">
+                <button class="btn btn=warning">
+                    <input type="submit" value="POST A MESSAGE">
+                </button>
+            </form>
+        </div>
+    </div>
+    @foreach(var message in ViewBag.JMU) 
+    {
+        <div class="row">
+            <p>@message["message"]</p>
+            <p>MESSAGE ID IS @message["mes"]</p>
+        </div>
+        @foreach(var comment in ViewBag.JCMU) 
+        {
+    if(comment["messages_id"] == message["mes"]) 
+    {
+    <div class="row">
+        <div style="outline:2px black solid; background-color:yellow;">
+            <h3>COMMENT ID @comment["comm_id"]</h3>
+            <p>@comment["comment"]</p>
+        </div>
+    </div>
+    }   
+}
+        <form action="commentPost" method="POST">
+            <input type="text" name="comment" class="text_box" placeholder="your comment...">
+            <input type="hidden" name="mes_id" value="@message["mes"]">
+            <button class="btn btn=warning">
+                <input type="submit" value="POST A COMMENT">
+            </button>
+        </form>
+    
+}
+</div>
+
+
+
+
+
+
+
+
+

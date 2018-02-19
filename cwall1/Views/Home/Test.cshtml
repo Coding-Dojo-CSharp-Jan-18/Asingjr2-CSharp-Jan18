@@ -1,0 +1,20 @@
+@model cwall1.Models.WallViewModel
+
+<h1>TEST PAGE FOR MULTIPLE MODELS</h1>
+@foreach(var message in ViewBag.JMU)
+{
+    <p>@message["message"]</p>
+    <p>MESSAGE ID IS @message["mes"]</p>
+    
+    @foreach(var comment in ViewBag.JCMU) {
+        if(comment["messages_id"] == message["mes"])
+        {
+        <div style="outline:2px black solid;">
+            <h1>@message["mes"]</h1>
+            <h3>COMMENT ID @comment["comm_id"]</h3>
+            <p>@comment["comment"]</p>
+                <p>words!!</p>
+            </div>
+        }
+        }
+}
