@@ -91,17 +91,18 @@ namespace linq_tutorial_console
                 System.Console.WriteLine($"first name of search results using LET and VAR which is DYNAMIC and bypasses compile stage is {p.first}.");
             }
             System.Console.WriteLine("ABOVE RESULTS WORK BECAUSE VAR item is being determined as type object PERSON after bypassing regular COMPILE.  WICKED!!!! *****************");
-            // Trying Contains
+            // Trying Let
             System.Console.WriteLine("****************SELECTING users with new age adjustment of +10 years");
+                        // The below exampe alters user base info!
             var outputNewAge = from a in output
-                                let age = a.age + 10
+                                let age = a.age += 100
                                 where age > 60
                                 select new {a.age, a.first};
             foreach(var u in outputNewAge)
             {
-                System.Console.WriteLine($"First name of users with new age is {u.first}");
+                System.Console.WriteLine($"First name of users with new age is {u.first} and age: {u.age}");
             }
-            // List of Job ovjects to use for queries
+               // List of Job objects to use for queries
             System.Console.WriteLine("**************Added Jobs List");
             List<Job> jobs = new List<Job>
             {
