@@ -38,7 +38,7 @@ namespace cwall1.Controllers
         {
             if (HttpContext.Session.GetInt32("id") == null)
                 return RedirectToAction("Index");
-            string query = @"SELECT messages.id AS mes, messages.message, messages.created_at, messages.updated_at
+            string query = @"SELECT messages.id AS mes, messages.message, messages.created_at, messages.updated_at, messages.users_id
                     FROM messages
                     JOIN users
                     ON messages.users_id = users.id;";
@@ -50,9 +50,40 @@ namespace cwall1.Controllers
             JOIN users
             ON messages.users_id = users.id";
             ViewBag.JCMU = DbConnector.Query(query2);
+            ViewBag.UID = (int)HttpContext.Session.GetInt32("id");
             WallViewModel wvm = new WallViewModel();
             return View();
         }
+
+        /*
+         WALL TWO USING VIEWMODEL
+        */
+        [HttpGet("wall2")]
+        public IActionResult Wall2()
+        {
+            string query = @"SELECT messages.id AS mes, messages.message, messages.created_at, messages.updated_at, messages.users_id
+                    FROM messages
+                    JOIN users
+                    ON messages.users_id = users.id;";
+            ViewBag.JMU = DbConnector.Query(query);
+            string query2 = @"SELECT comments.id AS comm_id, comments.comment, comments.created_at, comments.updated_at, comments.messages_id
+            FROM comments
+            JOIN messages
+            ON comments.messages_id = messages.id
+            JOIN users
+            ON messages.users_id = users.id";
+            ViewBag.JCMU = DbConnector.Query(query2);
+            WallViewModel2 AllData = new WallViewModel2();
+            AllData.AllMessages = DbConnector.Query(query);
+            AllData.AllComments = DbConnector.Query(query2);
+            WallViewModel wvm = new WallViewModel();
+            ViewBag.Stuff = AllData;
+            return View("Wall2", AllData);
+        }
+
+
+
+
 
         [HttpPost("registerPost")]
         public IActionResult RegisterPost(User user)
@@ -157,12 +188,22 @@ namespace cwall1.Controllers
             }
             return RedirectToAction("Wall");
         }
+
+        [HttpPost("deleteComment")]
+        public IActionResult DeleteComment(int comm_id)
+        {
+            System.Console.WriteLine(comm_id);
+            string query = $@"DELETE FROM comments WHERE id='{comm_id}'";
+            DbConnector.Execute(query);
+            return RedirectToAction("Wall");
+        }
+
         [HttpGet("logout")]
         public IActionResult Logout()
         {
             HttpContext.Session.Clear();
             System.Console.WriteLine(HttpContext.Session.GetInt32("id"));
-            return RedirectToAction("Index");
+            return RedirectToAction("Wall");
         }
     }
 }

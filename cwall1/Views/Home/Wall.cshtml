@@ -11,8 +11,8 @@
 
             <form action="messagePost" method="POST">
                 <input type="text" name="message" class="text_box" placeholder="your message...">
-                <button class="btn btn=warning">
-                    <input type="submit" value="POST A MESSAGE">
+                <button class="btn btn-danger">
+                    <input style="color:black" type="submit" value="POST A MESSAGE">
                 </button>
             </form>
         </div>
@@ -23,26 +23,32 @@
             <p>@message["message"]</p>
             <p>MESSAGE ID IS @message["mes"]</p>
         </div>
-        @foreach(var comment in ViewBag.JCMU) 
-        {
+         @foreach(var comment in ViewBag.JCMU) 
+         {
     if(comment["messages_id"] == message["mes"]) 
     {
     <div class="row">
         <div style="outline:2px black solid; background-color:yellow;">
             <h3>COMMENT ID @comment["comm_id"]</h3>
             <p>@comment["comment"]</p>
+            <form action="deleteComment" method="POST">
+                <input type="hidden" name="comm_id" value="@comment["comm_id"]">
+                <button class="btn btn-success">
+                    <input style="color:black" type="submit" value="DELETE">
+                </button>
+            </form>
         </div>
     </div>
     }   
 }
-        <form action="commentPost" method="POST">
-            <input type="text" name="comment" class="text_box" placeholder="your comment...">
-            <input type="hidden" name="mes_id" value="@message["mes"]">
-            <button class="btn btn=warning">
-                <input type="submit" value="POST A COMMENT">
-            </button>
-        </form>
-    
+<form action="commentPost" method="POST">
+    <input type="text" name="comment" class="text_box" placeholder="your comment...">
+    <input type="hidden" name="mes_id" value="@message["mes"]">
+    <button class="btn btn=warning">
+        <input type="submit" value="POST A COMMENT">
+    </button>
+</form>
+
 }
 </div>
 
