@@ -24,8 +24,8 @@ namespace appsettings.Controllers
         [HttpGet("")]
         public IActionResult Index()
         {
-            List<Dictionary<string, object>> AllUsers = _dbConnector.Query("SELECT * FROM quotes");
-            ViewBag.User = AllUsers;
+            List<Dictionary<string, object>> Quotes = _dbConnector.Query("SELECT * FROM quotes");
+            ViewBag.AQ = Quotes;
             return View();
             // Other code
         }
