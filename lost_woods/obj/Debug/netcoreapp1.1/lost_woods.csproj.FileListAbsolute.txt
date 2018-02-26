@@ -1,0 +1,8 @@
+C:\Users\Arthur\Desktop\Dojo_C#\lost_woods\bin\Debug\netcoreapp1.1\lost_woods.deps.json
+C:\Users\Arthur\Desktop\Dojo_C#\lost_woods\bin\Debug\netcoreapp1.1\lost_woods.runtimeconfig.json
+C:\Users\Arthur\Desktop\Dojo_C#\lost_woods\bin\Debug\netcoreapp1.1\lost_woods.runtimeconfig.dev.json
+C:\Users\Arthur\Desktop\Dojo_C#\lost_woods\obj\Debug\netcoreapp1.1\lost_woods.AssemblyInfo.cs
+C:\Users\Arthur\Desktop\Dojo_C#\lost_woods\bin\Debug\netcoreapp1.1\lost_woods.dll
+C:\Users\Arthur\Desktop\Dojo_C#\lost_woods\bin\Debug\netcoreapp1.1\lost_woods.pdb
+C:\Users\Arthur\Desktop\Dojo_C#\lost_woods\obj\Debug\netcoreapp1.1\lost_woods.dll
+C:\Users\Arthur\Desktop\Dojo_C#\lost_woods\obj\Debug\netcoreapp1.1\lost_woods.pdb
