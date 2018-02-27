@@ -1,0 +1,8 @@
+C:\Users\Arthur\Desktop\Dojo_C#\c_entity\bin\Debug\netcoreapp1.1\c_entity.deps.json
+C:\Users\Arthur\Desktop\Dojo_C#\c_entity\bin\Debug\netcoreapp1.1\c_entity.runtimeconfig.json
+C:\Users\Arthur\Desktop\Dojo_C#\c_entity\bin\Debug\netcoreapp1.1\c_entity.runtimeconfig.dev.json
+C:\Users\Arthur\Desktop\Dojo_C#\c_entity\bin\Debug\netcoreapp1.1\c_entity.dll
+C:\Users\Arthur\Desktop\Dojo_C#\c_entity\bin\Debug\netcoreapp1.1\c_entity.pdb
+C:\Users\Arthur\Desktop\Dojo_C#\c_entity\obj\Debug\netcoreapp1.1\c_entity.AssemblyInfo.cs
+C:\Users\Arthur\Desktop\Dojo_C#\c_entity\obj\Debug\netcoreapp1.1\c_entity.dll
+C:\Users\Arthur\Desktop\Dojo_C#\c_entity\obj\Debug\netcoreapp1.1\c_entity.pdb

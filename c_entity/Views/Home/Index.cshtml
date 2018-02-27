@@ -1,0 +1,9 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<h1>TEST FOR ALL USERS</h1>
+foreach(var user in ViewBag.AU)
+{
+    <p>@user.name</p>
+    <p>@user.password</p>
+}
