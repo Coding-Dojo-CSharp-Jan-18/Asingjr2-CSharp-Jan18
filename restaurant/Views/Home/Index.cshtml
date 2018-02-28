@@ -1,5 +1,4 @@
-﻿@{ ViewData["Title"] = "Home Page"; }
-@model Review
+﻿@model restaurant.Models.Review
 
 <h1>FORM FOR VIEWS</h1>
 
@@ -17,9 +16,9 @@
         </div>
 
         <div class="form-group">
-            <span asp-validation-for="review"></span>
-            <label asp-for="review"></label>
-            <input class="form-control" asp-for="review">
+            <span asp-validation-for="rev"></span>
+            <label asp-for="rev"></label>
+            <input class="form-control" asp-for="rev">
         </div>
         
         <div class="form-group">

@@ -18,7 +18,7 @@ namespace restaurant.Models
         public string name { get; set; }
 
         [Required]
-        public string review { get; set; }
+        public string rev { get; set; }
 
         [Required]
         public int stars { get; set; }

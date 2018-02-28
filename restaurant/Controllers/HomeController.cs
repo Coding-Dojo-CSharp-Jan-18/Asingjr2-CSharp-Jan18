@@ -29,13 +29,13 @@ namespace restaurant.Controllers
             System.Console.WriteLine("***********************************************************************came to POST");
             System.Console.WriteLine(review.restaurrant);
             System.Console.WriteLine(review.name);
-            System.Console.WriteLine(review.review);
+            System.Console.WriteLine(review.rev);
             System.Console.WriteLine(review.review_date);
             Review newReview = new Review()
             {
                 restaurrant = "Place 2",
                 name = "reviewer 5", 
-                review = "average to bad  food", 
+                rev = "average to bad  food", 
                 stars = 2, 
                 review_date = DateTime.Now,
             };
