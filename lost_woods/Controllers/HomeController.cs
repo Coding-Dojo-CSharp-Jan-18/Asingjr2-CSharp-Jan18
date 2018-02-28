@@ -14,16 +14,14 @@ namespace lost_woods.Controllers
         private TrailFactory _trailFactory;
         public HomeController(TrailFactory trailFactory)
         {
-            //  Service has creasted objects for this already because it was scoped...
+        
             _trailFactory = trailFactory;
         }
-
+       
         [HttpGet("")]
         public IActionResult Index()
         {
-            // var thingy =_trailFactory.GetTrails();
-            // return View(thingy);
-            System.Console.WriteLine("hello");
+         
             return View();
         }
 

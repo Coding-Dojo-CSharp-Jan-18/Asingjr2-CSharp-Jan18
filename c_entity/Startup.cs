@@ -53,7 +53,6 @@ namespace c_entity
             }
 
             app.UseStaticFiles();
-
             app.UseMvc();
         }
     }

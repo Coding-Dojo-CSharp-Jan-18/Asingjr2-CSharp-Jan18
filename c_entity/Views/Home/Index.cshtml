@@ -1,9 +1,18 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@model User
+
 <h1>TEST FOR ALL USERS</h1>
-foreach(var user in ViewBag.AU)
-{
-    <p>@user.name</p>
-    <p>@user.password</p>
+<p>What changed</p>
+<p>dbcontext add in configuration OK</p>
+<p>Startup add in configure service OK</p>
+<p>added private usercontext in controller OK</p>
+<p>added controller constructor</p>
+
+
+<p>BELOW LOOP CAUSES EVERYTHING TO BREAK</p>
+
+@foreach(var user in ViewBag.AU){
+    <p>@user.Name</p>
 }
+<h1>
+    @ViewBag.SE.Name
+</h1>

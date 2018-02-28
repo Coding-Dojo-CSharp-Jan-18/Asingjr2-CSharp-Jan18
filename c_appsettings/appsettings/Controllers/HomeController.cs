@@ -26,6 +26,7 @@ namespace appsettings.Controllers
         {
             List<Dictionary<string, object>> Quotes = _dbConnector.Query("SELECT * FROM quotes");
             ViewBag.AQ = Quotes;
+            _dbConnector.Query("DELETE FROM QUOTES WHERE id='12'");
             return View();
             // Other code
         }

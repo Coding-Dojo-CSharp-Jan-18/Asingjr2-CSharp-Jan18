@@ -14,10 +14,11 @@ namespace appsettings
         public void ConfigureServices(IServiceCollection services)
         {
             // Add framework services.
-            services.AddMvc();
             services.AddSession();
             services.Configure<MySqlOptions>(Configuration.GetSection("DBInfo"));
-            services.AddScoped<DbConnector>();
+            //  Adding to be used in other class.....can't use in other classes unless static...scoped allows for use of object and passes it to class...allows for more loose coupling
+            services.AddScoped<TrailFactory>();
+            services.AddMvc();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
