@@ -1,0 +1,8 @@
+C:\Users\Arthur\Desktop\Dojo_C#\restaurant\bin\Debug\netcoreapp1.1\restaurant.deps.json
+C:\Users\Arthur\Desktop\Dojo_C#\restaurant\bin\Debug\netcoreapp1.1\restaurant.runtimeconfig.json
+C:\Users\Arthur\Desktop\Dojo_C#\restaurant\bin\Debug\netcoreapp1.1\restaurant.runtimeconfig.dev.json
+C:\Users\Arthur\Desktop\Dojo_C#\restaurant\bin\Debug\netcoreapp1.1\restaurant.dll
+C:\Users\Arthur\Desktop\Dojo_C#\restaurant\bin\Debug\netcoreapp1.1\restaurant.pdb
+C:\Users\Arthur\Desktop\Dojo_C#\restaurant\obj\Debug\netcoreapp1.1\restaurant.AssemblyInfo.cs
+C:\Users\Arthur\Desktop\Dojo_C#\restaurant\obj\Debug\netcoreapp1.1\restaurant.dll
+C:\Users\Arthur\Desktop\Dojo_C#\restaurant\obj\Debug\netcoreapp1.1\restaurant.pdb
