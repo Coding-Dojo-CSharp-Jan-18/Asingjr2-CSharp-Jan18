@@ -1,0 +1,8 @@
+C:\Users\Arthur\Desktop\Dojo_C#\album\bin\Debug\netcoreapp1.1\album.deps.json
+C:\Users\Arthur\Desktop\Dojo_C#\album\bin\Debug\netcoreapp1.1\album.runtimeconfig.json
+C:\Users\Arthur\Desktop\Dojo_C#\album\bin\Debug\netcoreapp1.1\album.runtimeconfig.dev.json
+C:\Users\Arthur\Desktop\Dojo_C#\album\bin\Debug\netcoreapp1.1\album.dll
+C:\Users\Arthur\Desktop\Dojo_C#\album\bin\Debug\netcoreapp1.1\album.pdb
+C:\Users\Arthur\Desktop\Dojo_C#\album\obj\Debug\netcoreapp1.1\album.AssemblyInfo.cs
+C:\Users\Arthur\Desktop\Dojo_C#\album\obj\Debug\netcoreapp1.1\album.dll
+C:\Users\Arthur\Desktop\Dojo_C#\album\obj\Debug\netcoreapp1.1\album.pdb
