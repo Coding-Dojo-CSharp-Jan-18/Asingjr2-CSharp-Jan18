@@ -1,0 +1,4 @@
+C:\Users\Arthur\Desktop\Dojo_C#\enrollments\bin\Debug\netcoreapp1.1\enrollments.deps.json
+C:\Users\Arthur\Desktop\Dojo_C#\enrollments\bin\Debug\netcoreapp1.1\enrollments.runtimeconfig.json
+C:\Users\Arthur\Desktop\Dojo_C#\enrollments\bin\Debug\netcoreapp1.1\enrollments.runtimeconfig.dev.json
+C:\Users\Arthur\Desktop\Dojo_C#\enrollments\obj\Debug\netcoreapp1.1\enrollments.AssemblyInfo.cs
