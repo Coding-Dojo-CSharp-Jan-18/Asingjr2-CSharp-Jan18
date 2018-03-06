@@ -25,15 +25,16 @@ namespace HelloEF.Controllers
         }
 
         [HttpGet("students")]
-        public IActionResult AllStudents()
+        public IActionResult Students()
         {
             var students = _context.students
                 .Include(s => s.EnrolledCourses)
-                    .ThenInclude(e => e.Session)
+                .ThenInclude(e => e.Session)
                 .ToList();
 
             return View(students);
         }
+
         [HttpGet("courses")]
         public IActionResult Courses()
         {
@@ -41,6 +42,14 @@ namespace HelloEF.Controllers
                 .ToList();
 
             // students are currently enrolled in python
+
+
+            return View(courses);
+        }
+
+        [HttpGet("python")]
+        public IActionResult Python()
+        {
             List<Student> currentPythonStudents = _context.courses
                 .Include(c => c.EnrolledStudents)
                     .ThenInclude(e => e.EnrolledStudent)
@@ -49,16 +58,22 @@ namespace HelloEF.Controllers
                 // currently
                 .EnrolledStudents.Where(e => e.start_date < DateTime.Now && e.end_date > DateTime.Now)
                 .Select(e => e.EnrolledStudent).ToList();
+            return View(currentPythonStudents);
+        }
 
+        [HttpGet("devon")]
+        public IActionResult Devon()
+        {
             List<Student> allDevonsStudentsPastAndPresent = _context.courses
                 .Include(c => c.EnrolledStudents)
                     .ThenInclude(e => e.EnrolledStudent)
                 .Where(c => c.instructor == "Devon")
                 .SelectMany(c => c.EnrolledStudents)
                     .Select(e => e.EnrolledStudent).ToList();
-
-            return View(courses);
+            return View(allDevonsStudentsPastAndPresent);
         }
+
+
         [HttpPost("enrollments/create")]
         public IActionResult CreateEnrollment(Enrollment en)
         {

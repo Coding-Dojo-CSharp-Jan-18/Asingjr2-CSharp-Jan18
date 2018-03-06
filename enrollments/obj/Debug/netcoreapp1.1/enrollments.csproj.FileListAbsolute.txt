@@ -2,3 +2,7 @@ C:\Users\Arthur\Desktop\Dojo_C#\enrollments\bin\Debug\netcoreapp1.1\enrollments.
 C:\Users\Arthur\Desktop\Dojo_C#\enrollments\bin\Debug\netcoreapp1.1\enrollments.runtimeconfig.json
 C:\Users\Arthur\Desktop\Dojo_C#\enrollments\bin\Debug\netcoreapp1.1\enrollments.runtimeconfig.dev.json
 C:\Users\Arthur\Desktop\Dojo_C#\enrollments\obj\Debug\netcoreapp1.1\enrollments.AssemblyInfo.cs
+C:\Users\Arthur\Desktop\Dojo_C#\enrollments\bin\Debug\netcoreapp1.1\enrollments.dll
+C:\Users\Arthur\Desktop\Dojo_C#\enrollments\bin\Debug\netcoreapp1.1\enrollments.pdb
+C:\Users\Arthur\Desktop\Dojo_C#\enrollments\obj\Debug\netcoreapp1.1\enrollments.dll
+C:\Users\Arthur\Desktop\Dojo_C#\enrollments\obj\Debug\netcoreapp1.1\enrollments.pdb

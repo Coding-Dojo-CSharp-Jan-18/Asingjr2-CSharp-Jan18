@@ -1,0 +1,38 @@
+@model List<Student>
+    <nav>
+        <li>
+            <a href="students">Students</a>
+        </li>
+        <li>
+            <a href="courses">Courses</a>
+        </li>
+        <li>
+            <a href="/">Home</a>
+        </li>
+        <li>
+            <a href="devon">Devon</a>
+        </li>
+        <li>
+            <a href="python">Python</a>
+        </li>
+    </nav>
+    <h2>
+        All Students
+    </h2>
+
+    @foreach(Student student in Model)
+    {
+        var recent = student.EnrolledCourses.OrderByDescending( e => e.start_date).ToList();
+        <!-- DOES NOT MAKE SENSE TO ME -->
+        var recentCourse = (recent.Count>0)
+        ? recent.First().Session.title 
+        : "Not been enrolled";
+        <p>@student.first_name and your last name is @student.last_name</p>
+        <!-- Checking count of total student courses -->
+        <p>
+            Enrolled Course Count = @student.EnrolledCourses.Count
+        </p>
+       <p>
+           Most recent course = @recentCourse
+       </p>
+    }

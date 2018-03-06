@@ -1,7 +1,4 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
-<Student>
+@model List<Student>
     <nav>
         <li>
             <a href="students">Students</a>
@@ -19,8 +16,11 @@
             <a href="python">Python</a>
         </li>
     </nav>
+    <h2>
+        All Students
+    </h2>
 
-
-<h1>
-    Welcome to the Index
-</h1>
+    @foreach(var student in Model) 
+    {
+    <p>@student.first_name and your last name is @student.last_name</p>
+    }
