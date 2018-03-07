@@ -1,0 +1,26 @@
+@model List<User>
+<h1>
+    USERS
+</h1>
+
+foreach( var thing in Model)
+{
+    <p>
+        thing.userFirst
+    </p>
+}
+
+<ol>
+    <li>
+        <a href="u">Users</a>
+    </li>
+    <li>
+        <a href="a">Accounts</a>
+    </li>
+    <li>
+        <a href="t">Transactions</a>
+    </li>
+    <li>
+        <a href="ua">UserAccounts</a>
+    </li>
+</ol>

@@ -1,0 +1,14 @@
+@model List
+<Review>
+
+    <h1>ALL REVIEWS</h1>
+    <a href="/">MAIN PAGE</a>
+    <a href="reviews">REVIEWS PAGE</a>
+    <a href="states">STATES PAGE</a>
+
+    @foreach(var full_review in Model) {
+    <h1>@full_review.name</h1>
+    <p>@full_review.rev</p>
+    <p>@full_review.state.short_name</p>
+    <p>@full_review.state.long_name</p>
+    <hr> }

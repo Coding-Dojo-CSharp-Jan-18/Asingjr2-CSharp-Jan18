@@ -1,0 +1,8 @@
+C:\Users\Arthur\Desktop\Dojo_C#\bank\bin\Debug\netcoreapp1.1\bank.deps.json
+C:\Users\Arthur\Desktop\Dojo_C#\bank\bin\Debug\netcoreapp1.1\bank.runtimeconfig.json
+C:\Users\Arthur\Desktop\Dojo_C#\bank\bin\Debug\netcoreapp1.1\bank.runtimeconfig.dev.json
+C:\Users\Arthur\Desktop\Dojo_C#\bank\bin\Debug\netcoreapp1.1\bank.dll
+C:\Users\Arthur\Desktop\Dojo_C#\bank\bin\Debug\netcoreapp1.1\bank.pdb
+C:\Users\Arthur\Desktop\Dojo_C#\bank\obj\Debug\netcoreapp1.1\bank.AssemblyInfo.cs
+C:\Users\Arthur\Desktop\Dojo_C#\bank\obj\Debug\netcoreapp1.1\bank.dll
+C:\Users\Arthur\Desktop\Dojo_C#\bank\obj\Debug\netcoreapp1.1\bank.pdb
