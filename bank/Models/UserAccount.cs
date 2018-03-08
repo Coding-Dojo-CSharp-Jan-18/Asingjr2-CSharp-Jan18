@@ -10,5 +10,7 @@ namespace bank.Models
         public int useraccountID { get; set; }
         public int userID { get; set; }
         public int accountID { get; set; }
+        public Account acct {get; set;}
+        public User Person {get;set;}
     }
 }

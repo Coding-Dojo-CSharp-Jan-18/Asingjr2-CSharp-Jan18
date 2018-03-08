@@ -39,9 +39,18 @@ namespace bank.Controllers
         [HttpGet("a")]
         public IActionResult a()
         {
+            var a = _cnx.accounts.ToList();
             return View();
         }
-    
+
+        [HttpGet("au")]
+        public IActionResult au()
+        {
+            var au = _cnx.accounts.Include(us => us.accountInfo).ThenInclude( o => o.Person).ToList();
+            return View(au);
+        }
+
+
         [HttpGet("ua")]
         public IActionResult ua()
         {
@@ -50,12 +59,7 @@ namespace bank.Controllers
         }
 
 
-        [HttpGet("reviews")]
-        public IActionResult Reviews()
-        {
-            return View(_cnx.Reviews.ToList());
-        }
-
+   
 
     }
 }

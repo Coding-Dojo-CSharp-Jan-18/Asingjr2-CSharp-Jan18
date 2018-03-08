@@ -11,6 +11,5 @@ namespace bank.Models
         public DbSet<Account> accounts { get; set; }
         public DbSet<Transaction> transactions { get; set; }
         public DbSet<UserAccount> useraccounts { get; set; }
-        public DbSet<Review> Reviews { get; set; }
     }
 }

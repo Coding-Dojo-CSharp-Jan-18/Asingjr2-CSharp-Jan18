@@ -1,0 +1,35 @@
+ @model List<Account>
+
+    <h1>
+        Accounts
+    </h1>
+
+    @foreach(var trans in Model) {
+    <p>
+        @trans.balance
+    </p>
+        <p>
+            @trans.usersID
+        </p>
+        <p>
+            @trans.accountInfo.FirstOrDefault()
+        </p>
+    }
+
+
+
+
+    <ol>
+        <li>
+            <a href="u">Users</a>
+        </li>
+        <li>
+            <a href="a">Accounts</a>
+        </li>
+        <li>
+            <a href="t">Transactions</a>
+        </li>
+        <li>
+            <a href="ua">UserAccounts</a>
+        </li>
+    </ol>

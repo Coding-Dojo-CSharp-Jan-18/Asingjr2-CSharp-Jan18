@@ -1,6 +1,14 @@
+ @model List<Account>
+    
     <h1>
         Accounts
     </h1>
+
+     @foreach(var trans in Model) {
+    <p>
+        @trans.balance
+    </p>
+    }
 
 
 
