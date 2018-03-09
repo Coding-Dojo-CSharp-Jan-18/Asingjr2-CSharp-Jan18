@@ -1,0 +1,8 @@
+C:\Users\Arthur\Desktop\Dojo_C#\testBelt\bin\Debug\netcoreapp1.1\testBelt.deps.json
+C:\Users\Arthur\Desktop\Dojo_C#\testBelt\bin\Debug\netcoreapp1.1\testBelt.runtimeconfig.json
+C:\Users\Arthur\Desktop\Dojo_C#\testBelt\bin\Debug\netcoreapp1.1\testBelt.runtimeconfig.dev.json
+C:\Users\Arthur\Desktop\Dojo_C#\testBelt\bin\Debug\netcoreapp1.1\testBelt.dll
+C:\Users\Arthur\Desktop\Dojo_C#\testBelt\bin\Debug\netcoreapp1.1\testBelt.pdb
+C:\Users\Arthur\Desktop\Dojo_C#\testBelt\obj\Debug\netcoreapp1.1\testBelt.AssemblyInfo.cs
+C:\Users\Arthur\Desktop\Dojo_C#\testBelt\obj\Debug\netcoreapp1.1\testBelt.dll
+C:\Users\Arthur\Desktop\Dojo_C#\testBelt\obj\Debug\netcoreapp1.1\testBelt.pdb
