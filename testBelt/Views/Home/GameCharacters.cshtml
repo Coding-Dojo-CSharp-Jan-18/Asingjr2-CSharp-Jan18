@@ -4,10 +4,7 @@
     <a href="users">USERS PAGE</a>
     <a href="games">GAMES PAGE</a>
     <a href="characters">CHARACTERS PAGE</a>
-    <a href="seeenin">SEENIN PAGE</a>
     <a href="gamecharacters">GAMECHARACTERS PAGE</a>
 
-    @foreach(var char in Model) {
-        var characterSet = @char.coolChoices;
-    <h1>@characterSet.First()</h1>
-    <hr> }
+  
+    <h1>@Model</h1>

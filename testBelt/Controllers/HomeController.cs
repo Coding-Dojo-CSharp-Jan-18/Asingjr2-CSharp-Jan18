@@ -32,28 +32,23 @@ namespace testBelt.Controllers
         [HttpGet("games")]
         public IActionResult Games()
         {
-            return View(_c.Games.ToList());
+            return View(_c.Games.Include( f => f.owner).ToList());
         }
 
         [HttpGet("characters")]
         public IActionResult Characters()
         {
-            return View(_c.Characters.ToList());
+            return View(_c.Characters.Include( d => d.heroGames).ToList());
         }
-
-        [HttpGet("seenin")]
-        public IActionResult SeenIn()
-        {
-            return View(_c.Characters.Include(g => g.SeenIn).ToList());
-        }
-
 
         [HttpGet("gameCharacters")]
         public IActionResult GameCharacters()
         {
             System.Console.WriteLine("Hello Moto");
-            var playSet = _c.Games.Include(h => h.heroChoices).ThenInclude(cc => cc.coolCharacter).ToList();
-           
+            var gameCharacterSet = _c.Games
+            .Include(h => h.heroChoices)
+            .ThenInclude(cc => cc.coolCharacter)
+            .First();           
             return View();
         }
     }

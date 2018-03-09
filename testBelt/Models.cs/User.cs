@@ -6,7 +6,6 @@ namespace testBelt.Models
 {
     public class User 
     {
-        [Key]
         public int userID { get; set; }
 
         [Required]
@@ -14,6 +13,11 @@ namespace testBelt.Models
 
         [Required]
         public string userPW { get; set; }
+        public List<Game> userGames {get; set;}
+        public User()
+        {
+            userGames = new List<Game>();
+        }
 
 
     }

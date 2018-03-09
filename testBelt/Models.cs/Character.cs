@@ -14,9 +14,11 @@ namespace testBelt.Models
         public string superHero { get; set; }
 
         [Required]
-        public int gamesID { get; set; }
-        public Game SeenIn {get;set;}
         public List<GameCharacter> heroGames { get; set; }
+        public Character()
+        {
+            heroGames = new List<GameCharacter>();
+        }
         
 
     }

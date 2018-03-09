@@ -8,13 +8,13 @@ namespace testBelt.Models
     public class GameCharacter : BaseEntity
     {
         [Key]
-        public int gameCharactersID { get; set; }
+        public int gameCharacterID { get; set; }
 
         [Required]
-        public int gamesID { get; set; }
+        public int gameID { get; set; }
 
         [Required]
-        public int charactersID { get; set; }
+        public int characterID { get; set; }
         public Game coolGame {get; set;}
         public Character coolCharacter {get;set;}
 
