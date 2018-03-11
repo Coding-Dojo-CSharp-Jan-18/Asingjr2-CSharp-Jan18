@@ -48,7 +48,7 @@ namespace testBelt.Controllers
             var gameCharacterSet = _c.Games
             .Include(h => h.heroChoices)
             .ThenInclude(cc => cc.coolCharacter)
-            .First();           
+            .ToList();           
             return View();
         }
     }

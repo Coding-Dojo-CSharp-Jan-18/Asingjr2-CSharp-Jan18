@@ -43,8 +43,8 @@ namespace restaurant
 
             if (env.IsDevelopment())
             {
+                loggerFactory.AddConsole();
                 app.UseDeveloperExceptionPage();
-                app.UseBrowserLink();
             }
             else
             {

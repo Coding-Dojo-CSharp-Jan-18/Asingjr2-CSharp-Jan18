@@ -1,7 +1,5 @@
 using Microsoft.EntityFrameworkCore;
 using System;
-using album.Models;
-
 namespace album.Models
 {
     public class FullContext : DbContext

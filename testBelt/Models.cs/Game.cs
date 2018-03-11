@@ -17,7 +17,7 @@ namespace testBelt.Models
         public DateTime createdAt { get; set; }
 
         [Required]
-        public string userID { get; set; }
+        public int userID { get; set; }
         public User owner {get; set;}
         public List<GameCharacter> heroChoices {get; set;}
         public Game()

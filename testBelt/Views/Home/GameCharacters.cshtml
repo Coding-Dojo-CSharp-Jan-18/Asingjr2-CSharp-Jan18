@@ -7,4 +7,8 @@
     <a href="gamecharacters">GAMECHARACTERS PAGE</a>
 
   
-    <h1>@Model</h1>
+
+        @foreach(var user in Model)
+        {
+        <h1>@user.gameName</h1>
+        <hr> }

@@ -1,10 +1,10 @@
 <h1>ALL REVIEWS</h1>
-@foreach(var rev in ViewBag.AR)
+<a href="/">MAIN PAGE</a>
+@foreach(var game in ViewBag.AG)
 {
     <textarea name="" id="" cols="30" rows="10">
-        <h1>@rev.name</h1>
-        <p>@rev.rev</p>
-        <p>@rev.review_date</p>
+        <h1>@game.gameName</h1>
+        <p>@game.gameYear</p>
     </textarea>
     <hr>
     }

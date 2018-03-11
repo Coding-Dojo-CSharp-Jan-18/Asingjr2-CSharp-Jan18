@@ -4,9 +4,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
-using enrollments.Models;
 using System.Linq;
 using Microsoft.AspNetCore.Identity;
+using enrollments.Models;
 
 namespace HelloEF.Controllers
 {
